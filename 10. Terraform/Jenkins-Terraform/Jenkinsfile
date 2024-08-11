@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git branch: 'main', credentialsId: 'git-cred', url: 'https://github.com/jaiswaladi2468/J-TERRA.git'
+                git branch: 'main', url: 'https://github.com/jaiswaladi2468/J-TERRA.git'
             }
         }
         
